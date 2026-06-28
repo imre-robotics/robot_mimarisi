@@ -1,0 +1,9 @@
+# ROS 2 Derleme Dosyaları
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Python Geçici Dosyaları
+__pycache__/
+*.pyc
+*.pyo
