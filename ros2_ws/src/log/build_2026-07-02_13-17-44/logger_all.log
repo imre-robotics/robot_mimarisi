@@ -1,0 +1,163 @@
+[0.172s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.172s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7060934b99f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7060934b9510>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7060934b9510>>, mixin_verb=('build',))
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.293s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.293s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.294s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.294s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/app/src'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(guvenlik_sistemi) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(guvenlik_sistemi) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(guvenlik_sistemi) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(guvenlik_sistemi) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(guvenlik_sistemi) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(guvenlik_sistemi) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(guvenlik_sistemi) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(guvenlik_sistemi) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(guvenlik_sistemi) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'guvenlik_sistemi' with type 'ros.ament_python' and name 'guvenlik_sistemi'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(robot_gozu) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(robot_gozu) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(robot_gozu) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(robot_gozu) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(robot_gozu) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(robot_gozu) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(robot_gozu) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(robot_gozu) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(robot_gozu) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'robot_gozu' with type 'ros.ament_python' and name 'robot_gozu'
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'guvenlik_sistemi' build argument 'cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'guvenlik_sistemi' build argument 'cmake_target' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'guvenlik_sistemi' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'guvenlik_sistemi' build argument 'cmake_clean_cache' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'guvenlik_sistemi' build argument 'cmake_clean_first' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'guvenlik_sistemi' build argument 'cmake_force_configure' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'guvenlik_sistemi' build argument 'ament_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'guvenlik_sistemi' build argument 'catkin_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'guvenlik_sistemi' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.328s] DEBUG:colcon.colcon_core.verb:Building package 'guvenlik_sistemi' with the following arguments: {'ament_cmake_args': None, 'build_base': '/app/src/build/guvenlik_sistemi', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/app/src/install/guvenlik_sistemi', 'merge_install': False, 'path': '/app/src/guvenlik_sistemi', 'symlink_install': False, 'test_result_base': None}
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'robot_gozu' build argument 'cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'robot_gozu' build argument 'cmake_target' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'robot_gozu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'robot_gozu' build argument 'cmake_clean_cache' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'robot_gozu' build argument 'cmake_clean_first' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'robot_gozu' build argument 'cmake_force_configure' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'robot_gozu' build argument 'ament_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'robot_gozu' build argument 'catkin_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'robot_gozu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.328s] DEBUG:colcon.colcon_core.verb:Building package 'robot_gozu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/app/src/build/robot_gozu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/app/src/install/robot_gozu', 'merge_install': False, 'path': '/app/src/robot_gozu', 'symlink_install': False, 'test_result_base': None}
+[0.328s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.329s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.329s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/app/src/guvenlik_sistemi' with build type 'ament_python'
+[0.329s] Level 1:colcon.colcon_core.shell:create_environment_hook('guvenlik_sistemi', 'ament_prefix_path')
+[0.333s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/src/install/guvenlik_sistemi/share/guvenlik_sistemi/hook/ament_prefix_path.ps1'
+[0.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/src/install/guvenlik_sistemi/share/guvenlik_sistemi/hook/ament_prefix_path.dsv'
+[0.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/src/install/guvenlik_sistemi/share/guvenlik_sistemi/hook/ament_prefix_path.sh'
+[0.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.339s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/app/src/robot_gozu' with build type 'ament_python'
+[0.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_gozu', 'ament_prefix_path')
+[0.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/src/install/robot_gozu/share/robot_gozu/hook/ament_prefix_path.ps1'
+[0.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/src/install/robot_gozu/share/robot_gozu/hook/ament_prefix_path.dsv'
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/src/install/robot_gozu/share/robot_gozu/hook/ament_prefix_path.sh'
+[0.340s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.340s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.460s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/app/src/guvenlik_sistemi'
+[0.461s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.461s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.572s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/app/src/robot_gozu'
+[0.572s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.572s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/src/guvenlik_sistemi': PYTHONPATH=/app/src/build/guvenlik_sistemi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/src/install/guvenlik_sistemi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/guvenlik_sistemi build --build-base /app/src/build/guvenlik_sistemi/build install --record /app/src/build/guvenlik_sistemi/install.log --single-version-externally-managed install_data
+[0.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/app/src/robot_gozu': PYTHONPATH=/app/src/build/robot_gozu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/src/install/robot_gozu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_gozu build --build-base /app/src/build/robot_gozu/build install --record /app/src/build/robot_gozu/install.log --single-version-externally-managed install_data
+[0.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/src/guvenlik_sistemi' returned '0': PYTHONPATH=/app/src/build/guvenlik_sistemi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/src/install/guvenlik_sistemi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/guvenlik_sistemi build --build-base /app/src/build/guvenlik_sistemi/build install --record /app/src/build/guvenlik_sistemi/install.log --single-version-externally-managed install_data
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/app/src/install/guvenlik_sistemi' for CMake module files
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/app/src/install/guvenlik_sistemi' for CMake config files
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/app/src/install/guvenlik_sistemi/lib'
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/app/src/install/guvenlik_sistemi/bin'
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/app/src/install/guvenlik_sistemi/lib/pkgconfig/guvenlik_sistemi.pc'
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/app/src/install/guvenlik_sistemi/lib/python3.10/site-packages'
+[0.943s] Level 1:colcon.colcon_core.shell:create_environment_hook('guvenlik_sistemi', 'pythonpath')
+[0.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/src/install/guvenlik_sistemi/share/guvenlik_sistemi/hook/pythonpath.ps1'
+[0.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/src/install/guvenlik_sistemi/share/guvenlik_sistemi/hook/pythonpath.dsv'
+[0.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/src/install/guvenlik_sistemi/share/guvenlik_sistemi/hook/pythonpath.sh'
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/app/src/install/guvenlik_sistemi/bin'
+[0.944s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(guvenlik_sistemi)
+[0.945s] INFO:colcon.colcon_core.shell:Creating package script '/app/src/install/guvenlik_sistemi/share/guvenlik_sistemi/package.ps1'
+[0.945s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/src/install/guvenlik_sistemi/share/guvenlik_sistemi/package.dsv'
+[0.946s] INFO:colcon.colcon_core.shell:Creating package script '/app/src/install/guvenlik_sistemi/share/guvenlik_sistemi/package.sh'
+[0.946s] INFO:colcon.colcon_core.shell:Creating package script '/app/src/install/guvenlik_sistemi/share/guvenlik_sistemi/package.bash'
+[0.947s] INFO:colcon.colcon_core.shell:Creating package script '/app/src/install/guvenlik_sistemi/share/guvenlik_sistemi/package.zsh'
+[0.948s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/src/install/guvenlik_sistemi/share/colcon-core/packages/guvenlik_sistemi)
+[0.949s] Level 1:colcon.colcon_core.environment:checking '/app/src/install/robot_gozu' for CMake module files
+[0.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/app/src/robot_gozu' returned '0': PYTHONPATH=/app/src/build/robot_gozu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/src/install/robot_gozu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_gozu build --build-base /app/src/build/robot_gozu/build install --record /app/src/build/robot_gozu/install.log --single-version-externally-managed install_data
+[0.949s] Level 1:colcon.colcon_core.environment:checking '/app/src/install/robot_gozu' for CMake config files
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/app/src/install/robot_gozu/lib'
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/app/src/install/robot_gozu/bin'
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/app/src/install/robot_gozu/lib/pkgconfig/robot_gozu.pc'
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/app/src/install/robot_gozu/lib/python3.10/site-packages'
+[0.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_gozu', 'pythonpath')
+[0.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/src/install/robot_gozu/share/robot_gozu/hook/pythonpath.ps1'
+[0.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/app/src/install/robot_gozu/share/robot_gozu/hook/pythonpath.dsv'
+[0.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/app/src/install/robot_gozu/share/robot_gozu/hook/pythonpath.sh'
+[0.951s] Level 1:colcon.colcon_core.environment:checking '/app/src/install/robot_gozu/bin'
+[0.951s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_gozu)
+[0.951s] INFO:colcon.colcon_core.shell:Creating package script '/app/src/install/robot_gozu/share/robot_gozu/package.ps1'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package descriptor '/app/src/install/robot_gozu/share/robot_gozu/package.dsv'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package script '/app/src/install/robot_gozu/share/robot_gozu/package.sh'
+[0.952s] INFO:colcon.colcon_core.shell:Creating package script '/app/src/install/robot_gozu/share/robot_gozu/package.bash'
+[0.952s] INFO:colcon.colcon_core.shell:Creating package script '/app/src/install/robot_gozu/share/robot_gozu/package.zsh'
+[0.952s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/app/src/install/robot_gozu/share/colcon-core/packages/robot_gozu)
+[0.952s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.952s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.952s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.952s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.965s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.965s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.965s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.965s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.965s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[0.965s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.965s] INFO:colcon.colcon_core.shell:Creating prefix script '/app/src/install/local_setup.ps1'
+[0.967s] INFO:colcon.colcon_core.shell:Creating prefix util module '/app/src/install/_local_setup_util_ps1.py'
+[0.968s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/app/src/install/setup.ps1'
+[0.969s] INFO:colcon.colcon_core.shell:Creating prefix script '/app/src/install/local_setup.sh'
+[0.969s] INFO:colcon.colcon_core.shell:Creating prefix util module '/app/src/install/_local_setup_util_sh.py'
+[0.969s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/app/src/install/setup.sh'
+[0.970s] INFO:colcon.colcon_core.shell:Creating prefix script '/app/src/install/local_setup.bash'
+[0.971s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/app/src/install/setup.bash'
+[0.971s] INFO:colcon.colcon_core.shell:Creating prefix script '/app/src/install/local_setup.zsh'
+[0.972s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/app/src/install/setup.zsh'

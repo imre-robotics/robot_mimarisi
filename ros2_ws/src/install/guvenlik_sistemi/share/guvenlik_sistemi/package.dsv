@@ -1,0 +1,6 @@
+source;share/guvenlik_sistemi/hook/pythonpath.ps1
+source;share/guvenlik_sistemi/hook/pythonpath.dsv
+source;share/guvenlik_sistemi/hook/pythonpath.sh
+source;share/guvenlik_sistemi/hook/ament_prefix_path.ps1
+source;share/guvenlik_sistemi/hook/ament_prefix_path.dsv
+source;share/guvenlik_sistemi/hook/ament_prefix_path.sh

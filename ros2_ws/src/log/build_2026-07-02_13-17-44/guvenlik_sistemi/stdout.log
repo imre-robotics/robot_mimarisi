@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info
+writing ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/PKG-INFO
+writing dependency_links to ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/dependency_links.txt
+writing entry points to ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/entry_points.txt
+writing requirements to ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/requires.txt
+writing top-level names to ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/top_level.txt
+writing manifest file '../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/SOURCES.txt'
+reading manifest file '../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/SOURCES.txt'
+writing manifest file '../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /app/src/build/guvenlik_sistemi/build
+creating /app/src/build/guvenlik_sistemi/build/lib
+creating /app/src/build/guvenlik_sistemi/build/lib/guvenlik_sistemi
+copying guvenlik_sistemi/__init__.py -> /app/src/build/guvenlik_sistemi/build/lib/guvenlik_sistemi
+copying guvenlik_sistemi/acil_stop_node.py -> /app/src/build/guvenlik_sistemi/build/lib/guvenlik_sistemi
+running install
+running install_lib
+creating /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi
+copying /app/src/build/guvenlik_sistemi/build/lib/guvenlik_sistemi/__init__.py -> /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi
+copying /app/src/build/guvenlik_sistemi/build/lib/guvenlik_sistemi/acil_stop_node.py -> /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi
+byte-compiling /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi/__init__.py to __init__.cpython-310.pyc
+byte-compiling /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi/acil_stop_node.py to acil_stop_node.cpython-310.pyc
+running install_data
+creating /app/src/install/guvenlik_sistemi/share/ament_index
+creating /app/src/install/guvenlik_sistemi/share/ament_index/resource_index
+creating /app/src/install/guvenlik_sistemi/share/ament_index/resource_index/packages
+copying resource/guvenlik_sistemi -> /app/src/install/guvenlik_sistemi/share/ament_index/resource_index/packages
+copying package.xml -> /app/src/install/guvenlik_sistemi/share/guvenlik_sistemi
+running install_egg_info
+Copying ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info to /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi-0.0.0-py3.10.egg-info
+running install_scripts
+Installing acil_stop_servisi script to /app/src/install/guvenlik_sistemi/lib/guvenlik_sistemi
+writing list of installed files to '/app/src/build/guvenlik_sistemi/install.log'

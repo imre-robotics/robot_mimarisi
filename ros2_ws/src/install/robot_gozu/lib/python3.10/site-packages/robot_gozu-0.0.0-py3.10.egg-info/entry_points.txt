@@ -1,0 +1,5 @@
+[console_scripts]
+beyin_servisi = robot_gozu.beyin_node:main
+kamera_servisi = robot_gozu.kamera_node:main
+motor_servisi = robot_gozu.motor_node:main
+

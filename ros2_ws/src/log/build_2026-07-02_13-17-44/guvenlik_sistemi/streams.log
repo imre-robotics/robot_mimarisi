@@ -1,0 +1,37 @@
+[0.452s] Invoking command in '/app/src/guvenlik_sistemi': PYTHONPATH=/app/src/build/guvenlik_sistemi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/src/install/guvenlik_sistemi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/guvenlik_sistemi build --build-base /app/src/build/guvenlik_sistemi/build install --record /app/src/build/guvenlik_sistemi/install.log --single-version-externally-managed install_data
+[0.559s] running egg_info
+[0.559s] creating ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info
+[0.559s] writing ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/PKG-INFO
+[0.559s] writing dependency_links to ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/dependency_links.txt
+[0.559s] writing entry points to ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/entry_points.txt
+[0.559s] writing requirements to ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/requires.txt
+[0.560s] writing top-level names to ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/top_level.txt
+[0.560s] writing manifest file '../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/SOURCES.txt'
+[0.561s] reading manifest file '../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/SOURCES.txt'
+[0.561s] writing manifest file '../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/SOURCES.txt'
+[0.569s] running build
+[0.569s] running build_py
+[0.569s] creating /app/src/build/guvenlik_sistemi/build
+[0.570s] creating /app/src/build/guvenlik_sistemi/build/lib
+[0.570s] creating /app/src/build/guvenlik_sistemi/build/lib/guvenlik_sistemi
+[0.570s] copying guvenlik_sistemi/__init__.py -> /app/src/build/guvenlik_sistemi/build/lib/guvenlik_sistemi
+[0.570s] copying guvenlik_sistemi/acil_stop_node.py -> /app/src/build/guvenlik_sistemi/build/lib/guvenlik_sistemi
+[0.570s] running install
+[0.570s] running install_lib
+[0.570s] creating /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi
+[0.571s] copying /app/src/build/guvenlik_sistemi/build/lib/guvenlik_sistemi/__init__.py -> /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi
+[0.571s] copying /app/src/build/guvenlik_sistemi/build/lib/guvenlik_sistemi/acil_stop_node.py -> /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi
+[0.571s] byte-compiling /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi/__init__.py to __init__.cpython-310.pyc
+[0.571s] byte-compiling /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi/acil_stop_node.py to acil_stop_node.cpython-310.pyc
+[0.571s] running install_data
+[0.571s] creating /app/src/install/guvenlik_sistemi/share/ament_index
+[0.571s] creating /app/src/install/guvenlik_sistemi/share/ament_index/resource_index
+[0.571s] creating /app/src/install/guvenlik_sistemi/share/ament_index/resource_index/packages
+[0.571s] copying resource/guvenlik_sistemi -> /app/src/install/guvenlik_sistemi/share/ament_index/resource_index/packages
+[0.571s] copying package.xml -> /app/src/install/guvenlik_sistemi/share/guvenlik_sistemi
+[0.571s] running install_egg_info
+[0.573s] Copying ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info to /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi-0.0.0-py3.10.egg-info
+[0.573s] running install_scripts
+[0.586s] Installing acil_stop_servisi script to /app/src/install/guvenlik_sistemi/lib/guvenlik_sistemi
+[0.586s] writing list of installed files to '/app/src/build/guvenlik_sistemi/install.log'
+[0.607s] Invoked command in '/app/src/guvenlik_sistemi' returned '0': PYTHONPATH=/app/src/build/guvenlik_sistemi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/src/install/guvenlik_sistemi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/guvenlik_sistemi build --build-base /app/src/build/guvenlik_sistemi/build install --record /app/src/build/guvenlik_sistemi/install.log --single-version-externally-managed install_data

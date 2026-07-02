@@ -1,0 +1,47 @@
+[0.445s] Invoking command in '/app/src/robot_gozu': PYTHONPATH=/app/src/build/robot_gozu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/src/install/robot_gozu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_gozu build --build-base /app/src/build/robot_gozu/build install --record /app/src/build/robot_gozu/install.log --single-version-externally-managed install_data
+[0.549s] running egg_info
+[0.549s] creating ../build/robot_gozu/robot_gozu.egg-info
+[0.549s] writing ../build/robot_gozu/robot_gozu.egg-info/PKG-INFO
+[0.549s] writing dependency_links to ../build/robot_gozu/robot_gozu.egg-info/dependency_links.txt
+[0.549s] writing entry points to ../build/robot_gozu/robot_gozu.egg-info/entry_points.txt
+[0.549s] writing requirements to ../build/robot_gozu/robot_gozu.egg-info/requires.txt
+[0.549s] writing top-level names to ../build/robot_gozu/robot_gozu.egg-info/top_level.txt
+[0.549s] writing manifest file '../build/robot_gozu/robot_gozu.egg-info/SOURCES.txt'
+[0.550s] reading manifest file '../build/robot_gozu/robot_gozu.egg-info/SOURCES.txt'
+[0.551s] writing manifest file '../build/robot_gozu/robot_gozu.egg-info/SOURCES.txt'
+[0.560s] running build
+[0.560s] running build_py
+[0.560s] creating /app/src/build/robot_gozu/build
+[0.560s] creating /app/src/build/robot_gozu/build/lib
+[0.560s] creating /app/src/build/robot_gozu/build/lib/robot_gozu
+[0.560s] copying robot_gozu/__init__.py -> /app/src/build/robot_gozu/build/lib/robot_gozu
+[0.560s] copying robot_gozu/motor_node.py -> /app/src/build/robot_gozu/build/lib/robot_gozu
+[0.561s] copying robot_gozu/beyin_node.py -> /app/src/build/robot_gozu/build/lib/robot_gozu
+[0.562s] copying robot_gozu/kamera_node.py -> /app/src/build/robot_gozu/build/lib/robot_gozu
+[0.562s] running install
+[0.562s] running install_lib
+[0.562s] creating /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu
+[0.562s] copying /app/src/build/robot_gozu/build/lib/robot_gozu/__init__.py -> /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu
+[0.563s] copying /app/src/build/robot_gozu/build/lib/robot_gozu/motor_node.py -> /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu
+[0.563s] copying /app/src/build/robot_gozu/build/lib/robot_gozu/beyin_node.py -> /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu
+[0.563s] copying /app/src/build/robot_gozu/build/lib/robot_gozu/kamera_node.py -> /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu
+[0.563s] byte-compiling /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu/__init__.py to __init__.cpython-310.pyc
+[0.563s] byte-compiling /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu/motor_node.py to motor_node.cpython-310.pyc
+[0.563s] byte-compiling /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu/beyin_node.py to beyin_node.cpython-310.pyc
+[0.564s] byte-compiling /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu/kamera_node.py to kamera_node.cpython-310.pyc
+[0.564s] running install_data
+[0.564s] creating /app/src/install/robot_gozu/share/ament_index
+[0.564s] creating /app/src/install/robot_gozu/share/ament_index/resource_index
+[0.564s] creating /app/src/install/robot_gozu/share/ament_index/resource_index/packages
+[0.564s] copying resource/robot_gozu -> /app/src/install/robot_gozu/share/ament_index/resource_index/packages
+[0.564s] copying package.xml -> /app/src/install/robot_gozu/share/robot_gozu
+[0.564s] creating /app/src/install/robot_gozu/share/robot_gozu/launch
+[0.564s] copying launch/otonom_sistem.launch.py -> /app/src/install/robot_gozu/share/robot_gozu/launch
+[0.564s] running install_egg_info
+[0.566s] Copying ../build/robot_gozu/robot_gozu.egg-info to /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu-0.0.0-py3.10.egg-info
+[0.567s] running install_scripts
+[0.580s] Installing beyin_servisi script to /app/src/install/robot_gozu/lib/robot_gozu
+[0.580s] Installing kamera_servisi script to /app/src/install/robot_gozu/lib/robot_gozu
+[0.580s] Installing motor_servisi script to /app/src/install/robot_gozu/lib/robot_gozu
+[0.580s] writing list of installed files to '/app/src/build/robot_gozu/install.log'
+[0.610s] Invoked command in '/app/src/robot_gozu' returned '0': PYTHONPATH=/app/src/build/robot_gozu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/src/install/robot_gozu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_gozu build --build-base /app/src/build/robot_gozu/build install --record /app/src/build/robot_gozu/install.log --single-version-externally-managed install_data

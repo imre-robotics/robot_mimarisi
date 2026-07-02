@@ -1,0 +1,3 @@
+[console_scripts]
+acil_stop_servisi = guvenlik_sistemi.acil_stop_node:main
+

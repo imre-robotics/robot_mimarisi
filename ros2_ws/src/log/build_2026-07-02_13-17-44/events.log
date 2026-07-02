@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000150] (guvenlik_sistemi) JobQueued: {'identifier': 'guvenlik_sistemi', 'dependencies': OrderedDict()}
+[0.000194] (robot_gozu) JobQueued: {'identifier': 'robot_gozu', 'dependencies': OrderedDict()}
+[0.000214] (guvenlik_sistemi) JobStarted: {'identifier': 'guvenlik_sistemi'}
+[0.009858] (robot_gozu) JobStarted: {'identifier': 'robot_gozu'}
+[0.099545] (-) TimerEvent: {}
+[0.199976] (-) TimerEvent: {}
+[0.300292] (-) TimerEvent: {}
+[0.401209] (-) TimerEvent: {}
+[0.451196] (guvenlik_sistemi) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/guvenlik_sistemi', 'build', '--build-base', '/app/src/build/guvenlik_sistemi/build', 'install', '--record', '/app/src/build/guvenlik_sistemi/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/app/src/guvenlik_sistemi', 'env': {'HOSTNAME': 'd51713804b83', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/app/src/robot_gozu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/app/src/build/guvenlik_sistemi', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/app/src/build/guvenlik_sistemi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/src/install/guvenlik_sistemi/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.453907] (robot_gozu) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/robot_gozu', 'build', '--build-base', '/app/src/build/robot_gozu/build', 'install', '--record', '/app/src/build/robot_gozu/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/app/src/robot_gozu', 'env': {'HOSTNAME': 'd51713804b83', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/app/src/robot_gozu', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/app/src/build/robot_gozu', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/app/src/build/robot_gozu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/src/install/robot_gozu/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.501343] (-) TimerEvent: {}
+[0.558645] (robot_gozu) StdoutLine: {'line': b'running egg_info\n'}
+[0.559018] (robot_gozu) StdoutLine: {'line': b'creating ../build/robot_gozu/robot_gozu.egg-info\n'}
+[0.559114] (guvenlik_sistemi) StdoutLine: {'line': b'running egg_info\n'}
+[0.559207] (robot_gozu) StdoutLine: {'line': b'writing ../build/robot_gozu/robot_gozu.egg-info/PKG-INFO\n'}
+[0.559237] (robot_gozu) StdoutLine: {'line': b'writing dependency_links to ../build/robot_gozu/robot_gozu.egg-info/dependency_links.txt\n'}
+[0.559264] (robot_gozu) StdoutLine: {'line': b'writing entry points to ../build/robot_gozu/robot_gozu.egg-info/entry_points.txt\n'}
+[0.559288] (robot_gozu) StdoutLine: {'line': b'writing requirements to ../build/robot_gozu/robot_gozu.egg-info/requires.txt\n'}
+[0.559313] (robot_gozu) StdoutLine: {'line': b'writing top-level names to ../build/robot_gozu/robot_gozu.egg-info/top_level.txt\n'}
+[0.559340] (robot_gozu) StdoutLine: {'line': b"writing manifest file '../build/robot_gozu/robot_gozu.egg-info/SOURCES.txt'\n"}
+[0.559429] (guvenlik_sistemi) StdoutLine: {'line': b'creating ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info\n'}
+[0.559479] (guvenlik_sistemi) StdoutLine: {'line': b'writing ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/PKG-INFO\n'}
+[0.559548] (guvenlik_sistemi) StdoutLine: {'line': b'writing dependency_links to ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/dependency_links.txt\n'}
+[0.559627] (guvenlik_sistemi) StdoutLine: {'line': b'writing entry points to ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/entry_points.txt\n'}
+[0.559686] (guvenlik_sistemi) StdoutLine: {'line': b'writing requirements to ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/requires.txt\n'}
+[0.559729] (guvenlik_sistemi) StdoutLine: {'line': b'writing top-level names to ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/top_level.txt\n'}
+[0.559816] (guvenlik_sistemi) StdoutLine: {'line': b"writing manifest file '../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/SOURCES.txt'\n"}
+[0.560026] (robot_gozu) StdoutLine: {'line': b"reading manifest file '../build/robot_gozu/robot_gozu.egg-info/SOURCES.txt'\n"}
+[0.560446] (robot_gozu) StdoutLine: {'line': b"writing manifest file '../build/robot_gozu/robot_gozu.egg-info/SOURCES.txt'\n"}
+[0.560819] (guvenlik_sistemi) StdoutLine: {'line': b"reading manifest file '../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/SOURCES.txt'\n"}
+[0.561338] (guvenlik_sistemi) StdoutLine: {'line': b"writing manifest file '../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/SOURCES.txt'\n"}
+[0.568964] (guvenlik_sistemi) StdoutLine: {'line': b'running build\n'}
+[0.569156] (guvenlik_sistemi) StdoutLine: {'line': b'running build_py\n'}
+[0.569228] (guvenlik_sistemi) StdoutLine: {'line': b'creating /app/src/build/guvenlik_sistemi/build\n'}
+[0.569595] (robot_gozu) StdoutLine: {'line': b'running build\n'}
+[0.569694] (robot_gozu) StdoutLine: {'line': b'running build_py\n'}
+[0.569759] (guvenlik_sistemi) StdoutLine: {'line': b'creating /app/src/build/guvenlik_sistemi/build/lib\n'}
+[0.569820] (guvenlik_sistemi) StdoutLine: {'line': b'creating /app/src/build/guvenlik_sistemi/build/lib/guvenlik_sistemi\n'}
+[0.569880] (guvenlik_sistemi) StdoutLine: {'line': b'copying guvenlik_sistemi/__init__.py -> /app/src/build/guvenlik_sistemi/build/lib/guvenlik_sistemi\n'}
+[0.569937] (guvenlik_sistemi) StdoutLine: {'line': b'copying guvenlik_sistemi/acil_stop_node.py -> /app/src/build/guvenlik_sistemi/build/lib/guvenlik_sistemi\n'}
+[0.569994] (guvenlik_sistemi) StdoutLine: {'line': b'running install\n'}
+[0.570048] (robot_gozu) StdoutLine: {'line': b'creating /app/src/build/robot_gozu/build\n'}
+[0.570116] (robot_gozu) StdoutLine: {'line': b'creating /app/src/build/robot_gozu/build/lib\n'}
+[0.570177] (robot_gozu) StdoutLine: {'line': b'creating /app/src/build/robot_gozu/build/lib/robot_gozu\n'}
+[0.570237] (robot_gozu) StdoutLine: {'line': b'copying robot_gozu/__init__.py -> /app/src/build/robot_gozu/build/lib/robot_gozu\n'}
+[0.570296] (robot_gozu) StdoutLine: {'line': b'copying robot_gozu/motor_node.py -> /app/src/build/robot_gozu/build/lib/robot_gozu\n'}
+[0.570356] (robot_gozu) StdoutLine: {'line': b'copying robot_gozu/beyin_node.py -> /app/src/build/robot_gozu/build/lib/robot_gozu\n'}
+[0.570415] (guvenlik_sistemi) StdoutLine: {'line': b'running install_lib\n'}
+[0.570634] (guvenlik_sistemi) StdoutLine: {'line': b'creating /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi\n'}
+[0.570729] (guvenlik_sistemi) StdoutLine: {'line': b'copying /app/src/build/guvenlik_sistemi/build/lib/guvenlik_sistemi/__init__.py -> /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi\n'}
+[0.570793] (guvenlik_sistemi) StdoutLine: {'line': b'copying /app/src/build/guvenlik_sistemi/build/lib/guvenlik_sistemi/acil_stop_node.py -> /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi\n'}
+[0.570851] (guvenlik_sistemi) StdoutLine: {'line': b'byte-compiling /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi/__init__.py to __init__.cpython-310.pyc\n'}
+[0.570913] (guvenlik_sistemi) StdoutLine: {'line': b'byte-compiling /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi/acil_stop_node.py to acil_stop_node.cpython-310.pyc\n'}
+[0.571015] (guvenlik_sistemi) StdoutLine: {'line': b'running install_data\n'}
+[0.571075] (guvenlik_sistemi) StdoutLine: {'line': b'creating /app/src/install/guvenlik_sistemi/share/ament_index\n'}
+[0.571391] (guvenlik_sistemi) StdoutLine: {'line': b'creating /app/src/install/guvenlik_sistemi/share/ament_index/resource_index\n'}
+[0.571439] (guvenlik_sistemi) StdoutLine: {'line': b'creating /app/src/install/guvenlik_sistemi/share/ament_index/resource_index/packages\n'}
+[0.571469] (guvenlik_sistemi) StdoutLine: {'line': b'copying resource/guvenlik_sistemi -> /app/src/install/guvenlik_sistemi/share/ament_index/resource_index/packages\n'}
+[0.571498] (guvenlik_sistemi) StdoutLine: {'line': b'copying package.xml -> /app/src/install/guvenlik_sistemi/share/guvenlik_sistemi\n'}
+[0.571523] (guvenlik_sistemi) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.571554] (robot_gozu) StdoutLine: {'line': b'copying robot_gozu/kamera_node.py -> /app/src/build/robot_gozu/build/lib/robot_gozu\n'}
+[0.571584] (robot_gozu) StdoutLine: {'line': b'running install\n'}
+[0.571648] (robot_gozu) StdoutLine: {'line': b'running install_lib\n'}
+[0.572244] (robot_gozu) StdoutLine: {'line': b'creating /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu\n'}
+[0.572319] (robot_gozu) StdoutLine: {'line': b'copying /app/src/build/robot_gozu/build/lib/robot_gozu/__init__.py -> /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu\n'}
+[0.572386] (robot_gozu) StdoutLine: {'line': b'copying /app/src/build/robot_gozu/build/lib/robot_gozu/motor_node.py -> /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu\n'}
+[0.572422] (robot_gozu) StdoutLine: {'line': b'copying /app/src/build/robot_gozu/build/lib/robot_gozu/beyin_node.py -> /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu\n'}
+[0.572448] (robot_gozu) StdoutLine: {'line': b'copying /app/src/build/robot_gozu/build/lib/robot_gozu/kamera_node.py -> /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu\n'}
+[0.572722] (robot_gozu) StdoutLine: {'line': b'byte-compiling /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu/__init__.py to __init__.cpython-310.pyc\n'}
+[0.572820] (robot_gozu) StdoutLine: {'line': b'byte-compiling /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu/motor_node.py to motor_node.cpython-310.pyc\n'}
+[0.572849] (guvenlik_sistemi) StdoutLine: {'line': b'Copying ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info to /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi-0.0.0-py3.10.egg-info\n'}
+[0.573100] (robot_gozu) StdoutLine: {'line': b'byte-compiling /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu/beyin_node.py to beyin_node.cpython-310.pyc\n'}
+[0.573208] (guvenlik_sistemi) StdoutLine: {'line': b'running install_scripts\n'}
+[0.573538] (robot_gozu) StdoutLine: {'line': b'byte-compiling /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu/kamera_node.py to kamera_node.cpython-310.pyc\n'}
+[0.573740] (robot_gozu) StdoutLine: {'line': b'running install_data\n'}
+[0.573797] (robot_gozu) StdoutLine: {'line': b'creating /app/src/install/robot_gozu/share/ament_index\n'}
+[0.573842] (robot_gozu) StdoutLine: {'line': b'creating /app/src/install/robot_gozu/share/ament_index/resource_index\n'}
+[0.573894] (robot_gozu) StdoutLine: {'line': b'creating /app/src/install/robot_gozu/share/ament_index/resource_index/packages\n'}
+[0.573921] (robot_gozu) StdoutLine: {'line': b'copying resource/robot_gozu -> /app/src/install/robot_gozu/share/ament_index/resource_index/packages\n'}
+[0.573966] (robot_gozu) StdoutLine: {'line': b'copying package.xml -> /app/src/install/robot_gozu/share/robot_gozu\n'}
+[0.574012] (robot_gozu) StdoutLine: {'line': b'creating /app/src/install/robot_gozu/share/robot_gozu/launch\n'}
+[0.574067] (robot_gozu) StdoutLine: {'line': b'copying launch/otonom_sistem.launch.py -> /app/src/install/robot_gozu/share/robot_gozu/launch\n'}
+[0.574100] (robot_gozu) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.575977] (robot_gozu) StdoutLine: {'line': b'Copying ../build/robot_gozu/robot_gozu.egg-info to /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu-0.0.0-py3.10.egg-info\n'}
+[0.576361] (robot_gozu) StdoutLine: {'line': b'running install_scripts\n'}
+[0.586475] (guvenlik_sistemi) StdoutLine: {'line': b'Installing acil_stop_servisi script to /app/src/install/guvenlik_sistemi/lib/guvenlik_sistemi\n'}
+[0.586662] (guvenlik_sistemi) StdoutLine: {'line': b"writing list of installed files to '/app/src/build/guvenlik_sistemi/install.log'\n"}
+[0.589659] (robot_gozu) StdoutLine: {'line': b'Installing beyin_servisi script to /app/src/install/robot_gozu/lib/robot_gozu\n'}
+[0.589843] (robot_gozu) StdoutLine: {'line': b'Installing kamera_servisi script to /app/src/install/robot_gozu/lib/robot_gozu\n'}
+[0.589876] (robot_gozu) StdoutLine: {'line': b'Installing motor_servisi script to /app/src/install/robot_gozu/lib/robot_gozu\n'}
+[0.590015] (robot_gozu) StdoutLine: {'line': b"writing list of installed files to '/app/src/build/robot_gozu/install.log'\n"}
+[0.601537] (-) TimerEvent: {}
+[0.607588] (guvenlik_sistemi) CommandEnded: {'returncode': 0}
+[0.618656] (guvenlik_sistemi) JobEnded: {'identifier': 'guvenlik_sistemi', 'rc': 0}
+[0.619657] (robot_gozu) CommandEnded: {'returncode': 0}
+[0.622855] (robot_gozu) JobEnded: {'identifier': 'robot_gozu', 'rc': 0}
+[0.623271] (-) EventReactorShutdown: {}
