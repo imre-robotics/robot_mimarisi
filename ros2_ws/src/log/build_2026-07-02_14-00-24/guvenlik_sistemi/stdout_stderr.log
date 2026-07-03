@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/PKG-INFO
+writing dependency_links to ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/dependency_links.txt
+writing entry points to ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/entry_points.txt
+writing requirements to ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/requires.txt
+writing top-level names to ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/top_level.txt
+reading manifest file '../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/SOURCES.txt'
+writing manifest file '../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/SOURCES.txt'
+running build
+running build_py
+copying guvenlik_sistemi/acil_stop_node.py -> /app/src/build/guvenlik_sistemi/build/lib/guvenlik_sistemi
+running install
+running install_lib
+copying /app/src/build/guvenlik_sistemi/build/lib/guvenlik_sistemi/acil_stop_node.py -> /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi
+byte-compiling /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi/acil_stop_node.py to acil_stop_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info to /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi-0.0.0-py3.10.egg-info
+running install_scripts
+Installing acil_stop_servisi script to /app/src/install/guvenlik_sistemi/lib/guvenlik_sistemi
+writing list of installed files to '/app/src/build/guvenlik_sistemi/install.log'

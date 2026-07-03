@@ -1,0 +1,24 @@
+running egg_info
+writing ../build/robot_gozu/robot_gozu.egg-info/PKG-INFO
+writing dependency_links to ../build/robot_gozu/robot_gozu.egg-info/dependency_links.txt
+writing entry points to ../build/robot_gozu/robot_gozu.egg-info/entry_points.txt
+writing requirements to ../build/robot_gozu/robot_gozu.egg-info/requires.txt
+writing top-level names to ../build/robot_gozu/robot_gozu.egg-info/top_level.txt
+reading manifest file '../build/robot_gozu/robot_gozu.egg-info/SOURCES.txt'
+writing manifest file '../build/robot_gozu/robot_gozu.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_gozu/motor_node.py -> /app/src/build/robot_gozu/build/lib/robot_gozu
+running install
+running install_lib
+copying /app/src/build/robot_gozu/build/lib/robot_gozu/motor_node.py -> /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu
+byte-compiling /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu/motor_node.py to motor_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/robot_gozu/robot_gozu.egg-info to /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu-0.0.0-py3.10.egg-info
+running install_scripts
+Installing beyin_servisi script to /app/src/install/robot_gozu/lib/robot_gozu
+Installing kamera_servisi script to /app/src/install/robot_gozu/lib/robot_gozu
+Installing motor_servisi script to /app/src/install/robot_gozu/lib/robot_gozu
+writing list of installed files to '/app/src/build/robot_gozu/install.log'

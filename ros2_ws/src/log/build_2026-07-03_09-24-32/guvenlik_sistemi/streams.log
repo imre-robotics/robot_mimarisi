@@ -1,0 +1,21 @@
+[0.687s] Invoking command in '/app/src/guvenlik_sistemi': PYTHONPATH=/app/src/build/guvenlik_sistemi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/src/install/guvenlik_sistemi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/guvenlik_sistemi build --build-base /app/src/build/guvenlik_sistemi/build install --record /app/src/build/guvenlik_sistemi/install.log --single-version-externally-managed install_data
+[0.880s] running egg_info
+[0.881s] writing ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/PKG-INFO
+[0.882s] writing dependency_links to ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/dependency_links.txt
+[0.882s] writing entry points to ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/entry_points.txt
+[0.882s] writing requirements to ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/requires.txt
+[0.882s] writing top-level names to ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/top_level.txt
+[0.883s] reading manifest file '../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/SOURCES.txt'
+[0.885s] writing manifest file '../build/guvenlik_sistemi/guvenlik_sistemi.egg-info/SOURCES.txt'
+[0.885s] running build
+[0.885s] running build_py
+[0.886s] running install
+[0.886s] running install_lib
+[0.887s] running install_data
+[0.887s] running install_egg_info
+[0.891s] removing '/app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi-0.0.0-py3.10.egg-info' (and everything under it)
+[0.891s] Copying ../build/guvenlik_sistemi/guvenlik_sistemi.egg-info to /app/src/install/guvenlik_sistemi/lib/python3.10/site-packages/guvenlik_sistemi-0.0.0-py3.10.egg-info
+[0.892s] running install_scripts
+[0.914s] Installing acil_stop_servisi script to /app/src/install/guvenlik_sistemi/lib/guvenlik_sistemi
+[0.915s] writing list of installed files to '/app/src/build/guvenlik_sistemi/install.log'
+[0.949s] Invoked command in '/app/src/guvenlik_sistemi' returned '0': PYTHONPATH=/app/src/build/guvenlik_sistemi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/src/install/guvenlik_sistemi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/guvenlik_sistemi build --build-base /app/src/build/guvenlik_sistemi/build install --record /app/src/build/guvenlik_sistemi/install.log --single-version-externally-managed install_data

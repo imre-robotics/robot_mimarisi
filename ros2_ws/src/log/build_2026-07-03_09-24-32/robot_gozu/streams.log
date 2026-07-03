@@ -1,0 +1,26 @@
+[0.680s] Invoking command in '/app/src/robot_gozu': PYTHONPATH=/app/src/build/robot_gozu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/src/install/robot_gozu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_gozu build --build-base /app/src/build/robot_gozu/build install --record /app/src/build/robot_gozu/install.log --single-version-externally-managed install_data
+[0.867s] running egg_info
+[0.868s] writing ../build/robot_gozu/robot_gozu.egg-info/PKG-INFO
+[0.868s] writing dependency_links to ../build/robot_gozu/robot_gozu.egg-info/dependency_links.txt
+[0.868s] writing entry points to ../build/robot_gozu/robot_gozu.egg-info/entry_points.txt
+[0.868s] writing requirements to ../build/robot_gozu/robot_gozu.egg-info/requires.txt
+[0.869s] writing top-level names to ../build/robot_gozu/robot_gozu.egg-info/top_level.txt
+[0.870s] reading manifest file '../build/robot_gozu/robot_gozu.egg-info/SOURCES.txt'
+[0.871s] writing manifest file '../build/robot_gozu/robot_gozu.egg-info/SOURCES.txt'
+[0.871s] running build
+[0.872s] running build_py
+[0.872s] copying robot_gozu/motor_node.py -> /app/src/build/robot_gozu/build/lib/robot_gozu
+[0.873s] running install
+[0.873s] running install_lib
+[0.874s] copying /app/src/build/robot_gozu/build/lib/robot_gozu/motor_node.py -> /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu
+[0.875s] byte-compiling /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu/motor_node.py to motor_node.cpython-310.pyc
+[0.876s] running install_data
+[0.876s] running install_egg_info
+[0.880s] removing '/app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu-0.0.0-py3.10.egg-info' (and everything under it)
+[0.880s] Copying ../build/robot_gozu/robot_gozu.egg-info to /app/src/install/robot_gozu/lib/python3.10/site-packages/robot_gozu-0.0.0-py3.10.egg-info
+[0.881s] running install_scripts
+[0.903s] Installing beyin_servisi script to /app/src/install/robot_gozu/lib/robot_gozu
+[0.903s] Installing kamera_servisi script to /app/src/install/robot_gozu/lib/robot_gozu
+[0.903s] Installing motor_servisi script to /app/src/install/robot_gozu/lib/robot_gozu
+[0.903s] writing list of installed files to '/app/src/build/robot_gozu/install.log'
+[0.958s] Invoked command in '/app/src/robot_gozu' returned '0': PYTHONPATH=/app/src/build/robot_gozu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/src/install/robot_gozu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_gozu build --build-base /app/src/build/robot_gozu/build install --record /app/src/build/robot_gozu/install.log --single-version-externally-managed install_data

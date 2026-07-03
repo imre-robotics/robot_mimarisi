@@ -10,7 +10,7 @@ class AcilStopNode(Node):
         self.get_logger().warn("=== [GÜVENLİK] E-Stop Düğümü Aktif ===")
         
         # Test için saniyede bir kez sistemi kilitleme sinyali basacak
-        self.timer = self.create_timer(1.0, self.guvenlik_yayinla)
+        #self.timer = self.create_timer(1.0, self.guvenlik_yayinla)
 
     def guvenlik_yayinla(self):
         msg = String()
